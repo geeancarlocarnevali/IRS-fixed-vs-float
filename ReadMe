@@ -1,0 +1,5 @@
+This project bridges theory and practice by implementing key quantitative models and risk assessment tools in Python.
+The main objective is to simulate and price derivative instruments---specifically an IRS---under the Hull-White model, which is used to describe short rate dynamics.
+
+The work begins with the simulation of the short rate and the numéraire, and verifies consistency with a given zero-coupon curve. From there, it proceeds through the pricing of swaps, 
+the computation of future MtM} distributions, and the calculation of risk metrics such as EE, PFE, CVA, and FVA, considering both uncollateralized and collateralized scenarios.
